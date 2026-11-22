@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>معرض أعمال مراد المصباحي</title>
+<meta name="description" content="معرض أعمال مراد المصباحي: مواقع إلكترونية صممها وبناها بنفسه.">
+<meta name="theme-color" content="#ECECEC">
+<meta property="og:title" content="معرض أعمال مراد المصباحي">
+<meta property="og:description" content="مواقع إلكترونية صممتها وبنيتها بنفسي.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%233DD8DD' stroke='%230C3335' stroke-width='4'/%3E%3Ctext x='32' y='45' font-size='38' text-anchor='middle' fill='%230C3335' font-family='Tahoma,Arial'%3E%D9%85%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css" onerror="this.onerror=null;this.href='style.css'">
+</head>
+<body>
+  <div class="prog" id="prog"></div>
+
+  <!-- الشريط العلوي -->
+  <div class="barwrap" id="head">
+    <div class="bar">
+      <a class="brand" href="#home"><span class="mono">م</span><span class="bname">مراد المصباحـي</span><span class="bshort">مراد</span></a>
+      <nav class="nav" aria-label="main">
+        <a href="#home" aria-current="page">الرئيسية</a><a href="#works">أعمالـي</a><a href="#about">نبذة</a><a href="#contact">تواصل</a>
+      </nav>
+      <div class="tools">
+        <button class="ibtn lang" id="langBtn" type="button" lang="en">English</button>
+   <button class="ibtn" id="themeBtn" type="button" aria-label="التبديل إلى الوضع الليلـي">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M20.500 14.500A8.500 8.500 0 0 1 9.500 3.500a8.500 8.500 0 1 0 11 11Z">
+          </path>
+        </svg>
+        </button>
+   <a class="btn wa hide-s" href="https://wa.me/966564146686?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%20%D9%85%D8%B1%D8%A7%D8%AF%D8%8C%20%D8%B4%D9%81%D8%AA%20%D9%85%D8%B9%D8%B1%D8%B6%20%D8%A3%D8%B9%D9%85%D8%A7%D9%84%D9%83%20%D9%88%D8%A3%D8%A8%D9%8A%20%D8%A3%D8%AA%D9%88%D8%A7%D8%B5%D9%84%20%D9%85%D8%B9%D9%83%20%D8%A8%D8%AE%D8%B5%D9%88%D8%B5%20%D9%85%D8%B4%D8%B1%D9%88%D8%B9." target="_blank" rel="noopener" style="padding:.35em 1.2em;box-shadow:3px 3px 0 var(--edge)">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.8 14.1c-.2.7-1.4 1.3-1.9 1.3-.5.1-1.1.1-1.8-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5-4.5-.1-.2-1.2-1.6-1.2-3s.8-2.1 1-2.4c.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.4.6-.4.5c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.1 1 2.1 1.300 2.400 1.500.3.1.5.1.6-.1l.9-1.100c.2-.3.4-.2.6-.1l2 1c.3.1.5.2.6.3.1.2.1.8-.2 1.5Z">
+          </path>
+        </svg>
+        <span>واتساب</span></a>
+   <button class="ibtn burger" id="burger" type="button" aria-expanded="false" aria-label="القائمة">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round">
+          <path d="M4 7h16M4 12h16M4 17h16">
+          </path>
+        </svg>
+        </button>
+      </div>
+    </div>
+    <div class="drawer" id="drawer">
+      <a href="#home" aria-current="page">الرئيسية</a><a href="#works">أعمالـي</a><a href="#about">نبذة</a><a href="#contact">تواصل</a><a class="btn wa" href="https://wa.me/966564146686?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%20%D9%85%D8%B1%D8%A7%D8%AF%D8%8C%20%D8%B4%D9%81%D8%AA%20%D9%85%D8%B9%D8%B1%D8%B6%20%D8%A3%D8%B9%D9%85%D8%A7%D9%84%D9%83%20%D9%88%D8%A3%D8%A8%D9%8A%20%D8%A3%D8%AA%D9%88%D8%A7%D8%B5%D9%84%20%D9%85%D8%B9%D9%83%20%D8%A8%D8%AE%D8%B5%D9%88%D8%B5%20%D9%85%D8%B4%D8%B1%D9%88%D8%B9." target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.8 14.1c-.2.7-1.4 1.3-1.9 1.3-.5.1-1.1.1-1.8-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5-4.5-.1-.2-1.2-1.6-1.2-3s.8-2.1 1-2.4c.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.4.6-.4.5c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.1 1 2.1 1.300 2.400 1.500.3.1.5.1.6-.1l.9-1.100c.2-.3.4-.2.6-.1l2 1c.3.1.5.2.6.3.1.2.1.8-.2 1.5Z">
+        </path>
+      </svg>
+      <span>كلّمنـي على واتساب</span></a>
+    </div>
+  </div>
+
+  <!-- محتوى الصفحة الرئيسية (يتولى app.js بقية الصفحات واللغة الإنجليزية) -->
+  <main id="view" class="enter" data-pre="1">
+    <section class="wrap hero">
+      <div class="hero-copy">
+        <span class="eyebrow rise"><i></i>مصمم ومطوّر مواقع إلكترونية</span>
+        <h1 class="rise" style="--d:.08s">
+          أصمّم وأبنـي <span class="mark">المواقع الإلكترونية</span>
+        </h1>
+        <p class="lead rise" style="--d:.16s">
+          أنا مراد المصباحـي. كل موقع فـي هذا المعرض صممته وبنيته بنفسـي. تصفّح الأعمال وزر أي موقع مباشرة.
+        </p>
+        <div class="cta rise" style="--d:.24s">
+          <a class="btn pri" href="#works"><span>تصفّح الأعمال</span>
+          <svg class="arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14M13 6l6 6-6 6">
+            </path>
+          </svg>
+          </a><a class="btn wa " href="https://wa.me/966564146686?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%20%D9%85%D8%B1%D8%A7%D8%AF%D8%8C%20%D8%B4%D9%81%D8%AA%20%D9%85%D8%B9%D8%B1%D8%B6%20%D8%A3%D8%B9%D9%85%D8%A7%D9%84%D9%83%20%D9%88%D8%A3%D8%A8%D9%8A%20%D8%A3%D8%AA%D9%88%D8%A7%D8%B5%D9%84%20%D9%85%D8%B9%D9%83%20%D8%A8%D8%AE%D8%B5%D9%88%D8%B5%20%D9%85%D8%B4%D8%B1%D9%88%D8%B9." target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.8 14.1c-.2.7-1.4 1.3-1.9 1.3-.5.1-1.1.1-1.8-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5-4.5-.1-.2-1.2-1.6-1.2-3s.8-2.1 1-2.4c.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.4.6-.4.5c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.1 1 2.1 1.300 2.400 1.500.3.1.5.1.6-.1l.9-1.100c.2-.3.4-.2.6-.1l2 1c.3.1.5.2.6.3.1.2.1.8-.2 1.5Z">
+            </path>
+          </svg>
+          <span>كلّمنـي على واتساب</span></a>
+        </div>
+        <ul class="facts rise" style="--d:.32s">
+          <li>
+            <b>7</b><span>موقع منفّذ</span>
+          </li>
+          <li>
+            <b>2</b><span>عربـي + إنجليزي</span>
+          </li>
+        </ul>
+      </div>
+      <div class="hero-art" id="art" aria-hidden="true" style="--mx: -1; --my: -1;">
+        <i class="s-dots"></i><i class="sh s-sun"></i><i class="sh s-teal"></i><i class="sh s-coral"></i><i class="sh s-blue"></i>
+        <div class="win w1">
+          <div class="top">
+            <i></i><i></i><i></i><u></u>
+          </div>
+          <svg viewBox="0 0 320 200" preserveAspectRatio="xMidYMid slice" role="img" aria-hidden="true" style="--c:var(--c-main);--d:var(--c-mid)">
+            <rect class="f-bg" width="320" height="200">
+            </rect>
+            <rect class="f-ink" x="18" y="22" width="120" height="11" rx="5.500">
+            </rect>
+            <rect class="f-ink" x="18" y="40" width="92" height="11" rx="5.500">
+            </rect>
+            <rect class="f-line" x="18" y="66" width="130" height="6" rx="3">
+            </rect>
+            <rect class="f-line" x="18" y="78" width="104" height="6" rx="3">
+            </rect>
+            <rect class="f-c" x="18" y="100" width="66" height="22" rx="11">
+            </rect>
+            <circle class="f-c" cx="238" cy="98" r="62">
+            </circle>
+            <circle class="f-d" cx="262" cy="72" r="26">
+            </circle>
+            <rect class="f-line" x="18" y="152" width="284" height="28" rx="8" opacity=".6">
+            </rect>
+          </svg>
+        </div>
+        <div class="win w2">
+          <div class="top">
+            <i></i><i></i><i></i><u></u>
+          </div>
+          <svg viewBox="0 0 320 200" preserveAspectRatio="xMidYMid slice" role="img" aria-hidden="true" style="--c:var(--c-mid);--d:var(--c-main)">
+            <rect class="f-bg" width="320" height="200">
+            </rect>
+            <rect class="f-ink" x="0" y="0" width="54" height="200">
+            </rect>
+            <circle class="f-c" cx="27" cy="26" r="10">
+            </circle>
+            <rect class="f-line" x="12" y="60" width="30" height="7" rx="3.500">
+            </rect>
+            <rect class="f-line" x="12" y="84" width="30" height="7" rx="3.500">
+            </rect>
+            <rect class="f-line" x="12" y="108" width="30" height="7" rx="3.500">
+            </rect>
+            <rect class="f-sf st" x="68" y="16" width="112" height="46" rx="8">
+            </rect>
+            <rect class="f-sf st" x="192" y="16" width="112" height="46" rx="8">
+            </rect>
+            <rect class="f-c" x="80" y="30" width="44" height="9" rx="4.500">
+            </rect>
+            <rect class="f-d" x="204" y="30" width="60" height="9" rx="4.500">
+            </rect>
+            <rect class="f-c" x="74" y="136" width="14" height="40" rx="4">
+            </rect>
+            <rect class="f-d" x="96" y="106" width="14" height="70" rx="4">
+            </rect>
+            <rect class="f-c" x="118" y="126" width="14" height="50" rx="4">
+            </rect>
+            <rect class="f-d" x="140" y="86" width="14" height="90" rx="4">
+            </rect>
+            <rect class="f-c" x="162" y="112" width="14" height="64" rx="4">
+            </rect>
+            <rect class="f-d" x="184" y="72" width="14" height="104" rx="4">
+            </rect>
+            <circle class="s-d" cx="258" cy="130" r="30" stroke-width="14" stroke-dasharray="120 70">
+            </circle>
+            <circle class="s-c" cx="258" cy="130" r="30" stroke-width="14" stroke-dasharray="60 130" stroke-dashoffset="-120">
+            </circle>
+          </svg>
+        </div>
+        <div class="win w3">
+          <div class="top">
+            <i></i><i></i><i></i><u></u>
+          </div>
+          <svg viewBox="0 0 320 200" preserveAspectRatio="xMidYMid slice" role="img" aria-hidden="true" style="--c:var(--c-main);--d:var(--c-mid)">
+            <rect class="f-bg" width="320" height="200">
+            </rect>
+            <rect class="f-c" x="18" y="18" width="284" height="54" rx="10">
+            </rect>
+            <rect class="f-bg" x="34" y="32" width="104" height="9" rx="4.500">
+            </rect>
+            <rect class="f-bg" x="34" y="48" width="70" height="7" rx="3.500" opacity=".7">
+            </rect>
+            <rect class="f-sf st" x="18" y="86" width="80" height="96" rx="8">
+            </rect>
+            <circle class="f-d" cx="58" cy="120" r="17">
+            </circle>
+            <rect class="f-line" x="30" y="150" width="56" height="6" rx="3">
+            </rect>
+            <rect class="f-line" x="30" y="162" width="38" height="6" rx="3">
+            </rect>
+            <rect class="f-sf st" x="120" y="86" width="80" height="96" rx="8">
+            </rect>
+            <circle class="f-c" cx="160" cy="120" r="17">
+            </circle>
+            <rect class="f-line" x="132" y="150" width="56" height="6" rx="3">
+            </rect>
+            <rect class="f-line" x="132" y="162" width="38" height="6" rx="3">
+            </rect>
+            <rect class="f-sf st" x="222" y="86" width="80" height="96" rx="8">
+            </rect>
+            <circle class="f-d" cx="262" cy="120" r="17">
+            </circle>
+            <rect class="f-line" x="234" y="150" width="56" height="6" rx="3">
+            </rect>
+            <rect class="f-line" x="234" y="162" width="38" height="6" rx="3">
+            </rect>
+          </svg>
+        </div>
+      </div>
+    </section>
+    <div class="marquee" aria-hidden="true">
+      <div class="track">
+        <span>مواقع إلكترونية</span><span>تصميم واجهات</span><span>برمجة</span><span>إطلاق</span><span>عربـي وإنجليزي</span><span>وضع ليلـي ونهاري</span><span>مواقع إلكترونية</span><span>تصميم واجهات</span><span>برمجة</span><span>إطلاق</span><span>عربـي وإنجليزي</span><span>وضع ليلـي ونهاري</span><span>مواقع إلكترونية</span><span>تصميم واجهات</span><span>برمجة</span><span>إطلاق</span><span>عربـي وإنجليزي</span><span>وضع ليلـي ونهاري</span><span>مواقع إلكترونية</span><span>تصميم واجهات</span><span>برمجة</span><span>إطلاق</span><span>عربـي وإنجليزي</span><span>وضع ليلـي ونهاري</span>
+      </div>
+    </div>
+    <section class="wrap sec">
+      <div class="shead">
+        <div>
+          <h2>
+            أعمال مختارة
+          </h2>
+          <p class="muted">
+            مواقع صممتها وبنيتها. اضغط على أي موقع لتفاصيله، أو زره مباشرة.
+          </p>
+        </div>
+        <a class="btn" href="#works"><span>كل الأعمال</span>
+        <svg class="arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M5 12h14M13 6l6 6-6 6">
+          </path>
+        </svg>
+        </a>
+      </div>
+      <div class="grid">
+        <article class="card tilt rise" style="--d:0s" data-c="main" data-cat="Personal CV">
+          <a class="stretch" href="#work-1" aria-label="سيرتـي الذاتية"></a>
+          <div class="shot">
+            <div class="cv">
+              <svg viewBox="0 0 320 200" preserveAspectRatio="xMidYMid slice" role="img" aria-hidden="true" style="--c:var(--c-main);--d:var(--c-mid)">
+                <rect class="f-bg" width="320" height="200">
+                </rect>
+                <rect class="f-ink" x="18" y="22" width="120" height="11" rx="5.500">
+                </rect>
+                <rect class="f-ink" x="18" y="40" width="92" height="11" rx="5.500">
+                </rect>
+                <rect class="f-line" x="18" y="66" width="130" height="6" rx="3">
+                </rect>
+                <rect class="f-line" x="18" y="78" width="104" height="6" rx="3">
+                </rect>
+                <rect class="f-c" x="18" y="100" width="66" height="22" rx="11">
+                </rect>
+                <circle class="f-c" cx="238" cy="98" r="62">
+                </circle>
+                <circle class="f-d" cx="262" cy="72" r="26">
+                </circle>
+                <rect class="f-line" x="18" y="152" width="284" height="28" rx="8" opacity=".6">
+                </rect>
+              </svg>
+              <img class="real" src="images/me.jpg" alt="سيرتـي الذاتية" loading="lazy" onerror="if(!this.dataset.f){this.dataset.f=1;this.src=this.dataset.alt}else{this.remove()}" data-alt="me.jpg">
+            </div>
+          </div>
+          <div class="cbody">
+            <span class="chip">سيرة ذاتية</span>
+            <h3>
+              سيرتـي الذاتية
+            </h3>
+            <p>
+              موقع شخصـي يعرّف بـي وبمهاراتـي ومشاريعـي
+            </p>
+            <div class="crow">
+              <span class="more">التفاصيل
+              <svg class="arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14M13 6l6 6-6 6">
+                </path>
+              </svg>
+              </span><a class="btn mini sun" href="https://me.mradalmsbahy3.workers.dev/" target="_blank" rel="noopener"><span>زيارة الموقع</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M7 17 17 7M9 7h8v8">
+                </path>
+              </svg>
+              </a>
+            </div>
+          </div>
+        </article>
+        <article class="card tilt rise" style="--d:0.07s" data-c="mid" data-cat="Jewelry store">
+          <a class="stretch" href="#work-2" aria-label="متجر درة للمجوهرات"></a>
+          <div class="shot">
+            <div class="cv">
+              <svg viewBox="0 0 320 200" preserveAspectRatio="xMidYMid slice" role="img" aria-hidden="true" style="--c:var(--c-mid);--d:var(--c-main)">
+                <rect class="f-bg" width="320" height="200">
+                </rect>
+                <rect class="f-c" x="18" y="18" width="284" height="54" rx="10">
+                </rect>
+                <rect class="f-bg" x="34" y="32" width="104" height="9" rx="4.500">
+                </rect>
+                <rect class="f-bg" x="34" y="48" width="70" height="7" rx="3.500" opacity=".7">
+                </rect>
+                <rect class="f-sf st" x="18" y="86" width="80" height="96" rx="8">
+                </rect>
+                <circle class="f-d" cx="58" cy="120" r="17">
+                </circle>
+                <rect class="f-line" x="30" y="150" width="56" height="6" rx="3">
+                </rect>
+                <rect class="f-line" x="30" y="162" width="38" height="6" rx="3">
+                </rect>
+                <rect class="f-sf st" x="120" y="86" width="80" height="96" rx="8">
+                </rect>
+                <circle class="f-c" cx="160" cy="120" r="17">
+                </circle>
+                <rect class="f-line" x="132" y="150" width="56" height="6" rx="3">
+                </rect>
+                <rect class="f-line" x="132" y="162" width="38" height="6" rx="3">
+                </rect>
+                <rect class="f-sf st" x="222" y="86" width="80" height="96" rx="8">
+                </rect>
+                <circle class="f-d" cx="262" cy="120" r="17">
+                </circle>
+                <rect class="f-line" x="234" y="150" width="56" height="6" rx="3">
+                </rect>
+                <rect class="f-line" x="234" y="162" width="38" height="6" rx="3">
+                </rect>
+              </svg>
+              <img class="real" src="images/durraa.jpg" alt="متجر درة للمجوهرات" loading="lazy" onerror="if(!this.dataset.f){this.dataset.f=1;this.src=this.dataset.alt}else{this.remove()}" data-alt="durraa.jpg">
+            </div>
+          </div>
+          <div class="cbody">
+            <span class="chip">متجر مجوهرات</span>
+            <h3>
+              متجر درة للمجوهرات
+            </h3>
+            <p>
+              واجهة أنيقة لعرض الذهب والألماس
+            </p>
+            <div class="crow">
+              <span class="more">التفاصيل
+              <svg class="arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14M13 6l6 6-6 6">
+                </path>
+              </svg>
+              </span><a class="btn mini sun" href="https://durraa.mradalmsbahy3.workers.dev/" target="_blank" rel="noopener"><span>زيارة الموقع</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M7 17 17 7M9 7h8v8">
+                </path>
+              </svg>
+              </a>
+            </div>
+          </div>
+        </article>
+        <article class="card tilt rise" style="--d:0.14s" data-c="main" data-cat="Steakhouse">
+          <a class="stretch" href="#work-3" aria-label="مطعم جمر"></a>
+          <div class="shot">
+            <div class="cv">
+              <svg viewBox="0 0 320 200" preserveAspectRatio="xMidYMid slice" role="img" aria-hidden="true" style="--c:var(--c-main);--d:var(--c-mid)">
+                <rect class="f-bg" width="320" height="200">
+                </rect>
+                <rect class="f-ink" x="0" y="0" width="54" height="200">
+                </rect>
+                <circle class="f-c" cx="27" cy="26" r="10">
+                </circle>
+                <rect class="f-line" x="12" y="60" width="30" height="7" rx="3.500">
+                </rect>
+                <rect class="f-line" x="12" y="84" width="30" height="7" rx="3.500">
+                </rect>
+                <rect class="f-line" x="12" y="108" width="30" height="7" rx="3.500">
+                </rect>
+                <rect class="f-sf st" x="68" y="16" width="112" height="46" rx="8">
+                </rect>
+                <rect class="f-sf st" x="192" y="16" width="112" height="46" rx="8">
+                </rect>
+                <rect class="f-c" x="80" y="30" width="44" height="9" rx="4.500">
+                </rect>
+                <rect class="f-d" x="204" y="30" width="60" height="9" rx="4.500">
+                </rect>
+                <rect class="f-c" x="74" y="136" width="14" height="40" rx="4">
+                </rect>
+                <rect class="f-d" x="96" y="106" width="14" height="70" rx="4">
+                </rect>
+                <rect class="f-c" x="118" y="126" width="14" height="50" rx="4">
+                </rect>
+                <rect class="f-d" x="140" y="86" width="14" height="90" rx="4">
+                </rect>
+                <rect class="f-c" x="162" y="112" width="14" height="64" rx="4">
+                </rect>
+                <rect class="f-d" x="184" y="72" width="14" height="104" rx="4">
+                </rect>
+                <circle class="s-d" cx="258" cy="130" r="30" stroke-width="14" stroke-dasharray="120 70">
+                </circle>
+                <circle class="s-c" cx="258" cy="130" r="30" stroke-width="14" stroke-dasharray="60 130" stroke-dashoffset="-120">
+                </circle>
+              </svg>
+              <img class="real" src="images/jamr.jpg" alt="مطعم جمر" loading="lazy" onerror="if(!this.dataset.f){this.dataset.f=1;this.src=this.dataset.alt}else{this.remove()}" data-alt="jamr.jpg">
+            </div>
+          </div>
+          <div class="cbody">
+            <span class="chip">مطعم ستيك</span>
+            <h3>
+              مطعم جمر
+            </h3>
+            <p>
+              ستيك هاوس: لحوم معتّقة تُشوى على فحم طبيعـي
+            </p>
+            <div class="crow">
+              <span class="more">التفاصيل
+              <svg class="arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14M13 6l6 6-6 6">
+                </path>
+              </svg>
+              </span><a class="btn mini sun" href="https://jamr.mradalmsbahy3.workers.dev/" target="_blank" rel="noopener"><span>زيارة الموقع</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M7 17 17 7M9 7h8v8">
+                </path>
+              </svg>
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="wrap sec">
+      <div class="band">
+        <div>
+          <h2>
+            جاهز لأي مشروع تحب تسوّيه معـي
+          </h2>
+          <p>
+            التواصل المباشر على واتساب. احكِ لـي فكرتك ونبدأ.
+          </p>
+        </div>
+        <div class="cta">
+          <a class="btn wa " href="https://wa.me/966564146686?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%20%D9%85%D8%B1%D8%A7%D8%AF%D8%8C%20%D8%B4%D9%81%D8%AA%20%D9%85%D8%B9%D8%B1%D8%B6%20%D8%A3%D8%B9%D9%85%D8%A7%D9%84%D9%83%20%D9%88%D8%A3%D8%A8%D9%8A%20%D8%A3%D8%AA%D9%88%D8%A7%D8%B5%D9%84%20%D9%85%D8%B9%D9%83%20%D8%A8%D8%AE%D8%B5%D9%88%D8%B5%20%D9%85%D8%B4%D8%B1%D9%88%D8%B9." target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.8 14.1c-.2.7-1.4 1.3-1.9 1.3-.5.1-1.1.1-1.8-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5-4.5-.1-.2-1.2-1.6-1.2-3s.8-2.1 1-2.4c.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.4.6-.4.5c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.1 1 2.1 1.300 2.400 1.500.3.1.5.1.6-.1l.9-1.100c.2-.3.4-.2.6-.1l2 1c.3.1.5.2.6.3.1.2.1.8-.2 1.5Z">
+            </path>
+          </svg>
+          <span>كلّمنـي على واتساب</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- التذييل -->
+  <footer id="foot">
+    <span>© 2026 مراد المصباحـي. جميع الحقوق محفوظة</span><span>صُمّم وبُنـي بعناية</span>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <!-- رسالة تظهر فقط إذا لم يُحمَّل ملف الستايل أو الجافاسكربت -->
+  <div id="warn" hidden style="position:fixed;inset:auto 0 0 0;z-index:99;background:#fff3cd;color:#000;border-top:3px solid #c80;padding:12px 16px;font:16px/1.8 Tahoma,Arial,sans-serif;direction:rtl"></div>
+
+  <script src="js/app.js" data-cfasync="false" onerror="var s=document.createElement('script');s.src='app.js';s.setAttribute('data-cfasync','false');document.body.appendChild(s)"></script>
+  <script data-cfasync="false">
+    window.addEventListener("load", function () {
+      var m = [];
+      if (!getComputedStyle(document.documentElement).getPropertyValue("--c-main").trim()) m.push("ملف الستايل <b>css/style.css</b> لم يتحمّل");
+      if (!window.__mmReady) m.push("ملف الجافاسكربت <b>js/app.js</b> لم يتحمّل");
+      if (m.length) {
+        var w = document.getElementById("warn");
+        w.hidden = false;
+        w.innerHTML = "⚠ " + m.join(" و") + ". تأكد أن مجلدي <b>css</b> و<b>js</b> مرفوعان بجانب index.html بنفس الأسماء (أو ضع style.css وapp.js بجانبه مباشرة).";
+      }
+    });
+  </script>
+</body>
+</html>
